@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color green_200
+color green_500
+color green_700
+color white
+color yellow_200
+color yellow_700
+drawable dd_logo
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_add
+id btn_decide
+id food_text
+id input_add
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string button_add_text
+string button_decide_text
+string input_placeholder
+style Theme.DinnerDecider

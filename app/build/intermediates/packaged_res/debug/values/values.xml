@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="green_200">#689F38</color>
+    <color name="green_500">#09850F</color>
+    <color name="green_700">#2B5705</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow_200">#FBC02D</color>
+    <color name="yellow_700">#836312</color>
+    <string name="app_name">DinnerDecider</string>
+    <string name="button_add_text">Add Food</string>
+    <string name="button_decide_text">Decide</string>
+    <string name="input_placeholder">Add new food</string>
+    <style name="Theme.DinnerDecider" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/yellow_700</item>
+        <item name="colorPrimaryVariant">@color/yellow_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/yellow_200</item>
+        <item name="colorSecondaryVariant">@color/yellow_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
